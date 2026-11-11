@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Generated at runtime
+output/
+temp/
+
+# Python / OS
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store

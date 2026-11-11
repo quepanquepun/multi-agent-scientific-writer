@@ -1,0 +1,21 @@
+# Framework multiagente
+crewai>=0.70.0
+crewai[tools]>=0.70.0
+
+# Interfaz de usuario
+streamlit>=1.28.0
+
+# Generación de PDF
+WeasyPrint>=60.0
+markdown>=3.5.0
+
+# Utilidades
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Herramientas adicionales (incluidas en crewai[tools] pero por compatibilidad)
+# Las siguientes se instalan automáticamente con crewai[tools]:
+# - langchain
+# - langchain-community
+# - beautifulsoup4
+# - lxml
